@@ -54,7 +54,7 @@ const Singlepage = ({ match }) => {
               {singleShow.rating ? singleShow.rating.average : "No rating"}
             </p>
             <p>
-              <strong>Offical Site:</strong>{" "}
+              <strong>Offical Site of shows:</strong>{" "}
               {singleShow.officalSite ? (
                 <a
                   href={singleShow.officalSite}
